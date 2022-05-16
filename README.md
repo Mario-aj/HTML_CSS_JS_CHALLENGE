@@ -1,2 +1,1 @@
-# appIdeasCollection
-appIdeasCollection
+# Daily HTML, CSS and JS challenge.
