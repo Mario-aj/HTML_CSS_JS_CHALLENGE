@@ -19,7 +19,7 @@ bidy {
   width: 90vw;
 }
 
-.painel {
+.panel {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ bidy {
   transition: flex 0.7s ease-in;
 }
 
-.painel h3 {
+.panel h3 {
   font-size: 24px;
   position: absolute;
   bottom: 20px;
@@ -42,12 +42,13 @@ bidy {
   opacity: 0;
 }
 
-.painel.active {
+.panel.active {
   flex: 5;
 }
 
-.painel.active h3 {
+.panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {
@@ -55,8 +56,8 @@ bidy {
     width: 100vw;
   }
 
-  .painel:nth-of-type(4),
-  .painel:nth-of-type(5) {
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
     display: none;
   }
 }
@@ -66,7 +67,7 @@ bidy {
     width: 95vw;
   }
 
-  .painel:nth-of-type(5) {
+  .panel:nth-of-type(5) {
     display: none;
   }
 }
